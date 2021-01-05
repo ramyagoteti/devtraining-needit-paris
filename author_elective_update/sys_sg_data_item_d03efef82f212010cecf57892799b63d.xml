@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item">
+    <sys_sg_data_item action="DELETE">
+        <condition_type>declarative</condition_type>
+        <description>all of my open NeedIt records</description>
+        <group_by/>
+        <instance_relative_url_qc/>
+        <name>NeedIT-LastQuarter</name>
+        <query_condition table="x_58872_needit_needit">u_requested_for=6816f79cc0a8016401c5a33be04be441^active=true<item display_table="sys_user" display_value="Ramya Goteti" endquery="false" field="u_requested_for" goto="false" newquery="false" operator="=" or="false" value="6816f79cc0a8016401c5a33be04be441"/>
+            <item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+        </query_condition>
+        <query_condition_script/>
+        <sys_class_name>sys_sg_data_item</sys_class_name>
+        <sys_created_by>ramya.goteti</sys_created_by>
+        <sys_created_on>2021-01-04 14:41:21</sys_created_on>
+        <sys_id>d03efef82f212010cecf57892799b63d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIT-LastQuarter</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_sg_data_item_d03efef82f212010cecf57892799b63d</sys_update_name>
+        <sys_updated_by>ramya.goteti</sys_updated_by>
+        <sys_updated_on>2021-01-04 14:41:21</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+    </sys_sg_data_item>
+    <sys_translated_text action="DELETE" query="documentkey=d03efef82f212010cecf57892799b63d"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>c92db514db14b78007072f17d49619c5</instance_id>
+        <instance_name>dev75263</instance_name>
+        <name>sys_sg_data_item_d03efef82f212010cecf57892799b63d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item"><sys_sg_data_item action="INSERT_OR_UPDATE"><condition_type>declarative</condition_type><description>all of my open NeedIt records</description><group_by/><instance_relative_url_qc/><name>NeedIT-LastQuarter</name><query_condition table="x_58872_needit_needit">u_requested_for=6816f79cc0a8016401c5a33be04be441^active=true<item display_table="sys_user" display_value="Ramya Goteti" endquery="false" field="u_requested_for" goto="false" newquery="false" operator="=" or="false" value="6816f79cc0a8016401c5a33be04be441"/><item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/></query_condition><query_condition_script/><sys_class_name>sys_sg_data_item</sys_class_name><sys_created_by>ramya.goteti</sys_created_by><sys_created_on>2021-01-04 14:41:21</sys_created_on><sys_id>d03efef82f212010cecf57892799b63d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>NeedIT-LastQuarter</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_sg_data_item_d03efef82f212010cecf57892799b63d</sys_update_name><sys_updated_by>ramya.goteti</sys_updated_by><sys_updated_on>2021-01-04 14:41:21</sys_updated_on><table>x_58872_needit_needit</table></sys_sg_data_item><sys_translated_text action="delete_multiple" query="documentkey=d03efef82f212010cecf57892799b63d"/></record_update>]]></payload>
+        <payload_hash>1829152063</payload_hash>
+        <record_name>NeedIT-LastQuarter</record_name>
+        <reverted_from/>
+        <source>48ad09ed2fe02010cecf57892799b61a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ramya.goteti</sys_created_by>
+        <sys_created_on>2021-01-04 14:41:21</sys_created_on>
+        <sys_id>dc3efef82f212010cecf57892799b640</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>176cdd86be30000001</sys_recorded_at>
+        <sys_updated_by>ramya.goteti</sys_updated_by>
+        <sys_updated_on>2021-01-04 14:41:21</sys_updated_on>
+        <type>Data Item</type>
+        <update_guid>183efef85f21201078df33b4c6ebe640</update_guid>
+        <update_guid_history>183efef85f21201078df33b4c6ebe640:1829152063</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ramya.goteti</sys_created_by>
+        <sys_created_on>2021-01-04 14:47:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_data_item">sys_sg_data_item</sys_db_object>
+        <sys_id>0cc90d9bf716477386adad2317c35b81</sys_id>
+        <sys_metadata>d03efef82f212010cecf57892799b63d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIT-LastQuarter</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_sg_data_item_d03efef82f212010cecf57892799b63d</sys_update_name>
+        <sys_update_version display_value="sys_sg_data_item_d03efef82f212010cecf57892799b63d">dc3efef82f212010cecf57892799b640</sys_update_version>
+        <sys_updated_by>ramya.goteti</sys_updated_by>
+        <sys_updated_on>2021-01-04 14:47:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
